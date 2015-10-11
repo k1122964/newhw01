@@ -13,8 +13,23 @@
 		    }
 	</style>
 	</head>
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script> 
+		$(document).ready(function(){
+    		$("h1").click(function(){
+		$("h1").animate({
+                left: '250px',
+                opacity: '0.5',
+                height: '150px',
+                width: '150px'
+        	});
+		});
+		});
+	</script> 
+
 	<body>
+		<div class="move" style="background:#98bf21;height:100px;width:200px;position:absolute;">HELLO</div>
+		
    		<div class="space13cm">
     			<h1>履歷表</h1>
     		</div>
