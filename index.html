@@ -13,7 +13,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script>
 			$(document).ready(function(){
-    			$("button").click(function(){
+    			$("html").click(function(){
         		$("#firstsection").fadeIn();
         		$("#secondsection").fadeIn(1000);
         		$("#thirdsection").fadeIn(2000);
@@ -23,8 +23,8 @@
 		</script>
 		<script> 
 			$(document).ready(function(){
-    			$(".resumetitle").click(function(){
-			$("button").animate({ left: '450px' , top: '0px' });
+    			$("html").click(function(){
+			$("h1").animate({ left: '450px' , top: '0px' });
 			});
 			});
 		</script>
@@ -32,7 +32,7 @@
 	</head>
 	
 	<body>
-   		<button class="resumetitle"><h1>履歷表</h1></button>
+   		<h1>履歷表</h1>
     		
     		<div id="firstsection" style="position:absolute; top:100px; display:none;">
     		    	<img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-9/12096215_1094635387243992_7951622216282530649_n.jpg?oh=c21e5fc17ac9e0ae12abf9b2066d2171&oe=568C9713&__gda__=1452606005_204832c16a9ec73f6a0edce3d76a3be7" height="350" width="250">
