@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<title>Resume Of Cheng</title>
-	<style>
-		.resumetitle    {  position:absolute; left:450px; top:200px;  }
-		#firstsection   {  position:absolute; top:100px; }
-		#secondsection  {  position:absolute; left:300px; top:100px;  }
-		#thirdsection   {  position:absolute; left:650px; top:100px;  }
-		#foursection    {  position:absolute; left:100px; top:550px;  }
-		body{	background: url("http://2.bp.blogspot.com/_YBwMy0HaXdo/TL8V9bFuD3I/AAAAAAAAAGM/Tlo3jjLXGfg/s1600/0705190.jpg");
-			background-size:cover;
-		    }
-	</style>
+		<title>Resume Of Cheng</title>
+		<style>
+			.resumetitle    {  position:absolute; left:450px;  }
+			#firstsection   {  position:absolute; top:100px;   }
+			#secondsection  {  position:absolute; left:300px; top:100px;  }
+			#thirdsection   {  position:absolute; left:650px; top:100px;  }
+			#fourthsection    {  position:absolute; left:100px; top:550px;  }
+			body{	background: url("http://2.bp.blogspot.com/_YBwMy0HaXdo/TL8V9bFuD3I/AAAAAAAAAGM/Tlo3jjLXGfg/s1600/0705190.jpg");
+				background-size:cover;
+			    }
+		</style>
 	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script> 
-		$(document).ready(function(){
-    		$(".resumetitle").click(function(){
-		$("h1").animate({
-                left: '250px',
-                opacity: '0.5',
-                height: '150px',
-                width: '150px'
-        	});
-		});
-		});
-	</script> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script> 
+			$(document).ready(function(){
+    			$(".resumetitle").click(function(){
+			$("h1").animate({
+                	left: '450px',
+                	opacity: '0.5',
+                	height: '150px',
+                	width: '150px'
+        		});
+			});
+			});
+		</script> 
+		<script>
+			$(document).ready(function(){
+    			$("button").click(function(){
+        		$("#firstsection").fadeIn();
+        		$("#secondsection").fadeIn(1500);
+        		$("#thirdsection").fadeIn(3000);
+        		$("#fourthsection").fadeIn(4000);
+			});
+			});
+		</script>
 	</head>
 	
 	<body>
@@ -61,7 +71,7 @@
   				875分
       		</div>
 
-      		<div id="foursection">
+      		<div id="fourthsection">
       			<a href="https://www.facebook.com/profile.php?id=100000926229422"><img src="https://fbstatic-a.akamaihd.net/rsrc.php/yl/r/H3nktOa7ZMg.ico"</a>
       		</div>
       	</body>
