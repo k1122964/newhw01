@@ -8,6 +8,24 @@
 				background-size:cover;
 			    }
 			.profile {  border-radius: 50%; border:5px solid #fff;  }
+			
+			.circle 
+			{	display: inline-block;
+    				width: 100px;
+    				height:100px;
+    				border-radius: 50%;
+				border: 1px solid #eee;
+    				padding: 5px;
+    				background:#fff;
+			}
+			.inner 
+			{ 	background-image: url(https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-9/12096215_1094635387243992_7951622216282530649_n.jpg?oh=c21e5fc17ac9e0ae12abf9b2066d2171&oe=568C9713&__gda__=1452606005_204832c16a9ec73f6a0edce3d76a3be7);
+    				background-size:cover;
+    				background-position:center center;
+    				height: 100%;
+    				border-radius:50%;
+			}
+			
 		</style>
 	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -15,7 +33,7 @@
 		<script>
 			$(document).ready(function(){
     			$("html").click(function(){
-        		$("#firstsection").fadeIn(1000);
+        	//	$("#firstsection").fadeIn(1000); 
         		$("#secondsection").fadeIn(2000);
         		$("#thirdsection").fadeIn(3000);
         		$("#fourthsection").fadeIn(4000);
@@ -35,10 +53,12 @@
 	<body>
    		<h1>履歷表</h1>
     		
-    		<div id="firstsection" style="position:absolute; top:100px; display:none;">
+    		<div class='circle'>  <div class='inner'></div>  </div>
+    		
+    	<!--	<div id="firstsection" style="position:absolute; top:100px; display:none;">
     		    	<img class="profile" src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-9/12096215_1094635387243992_7951622216282530649_n.jpg?oh=c21e5fc17ac9e0ae12abf9b2066d2171&oe=568C9713&__gda__=1452606005_204832c16a9ec73f6a0edce3d76a3be7" height="350" width="250">
     		</div>
-    		
+    	-->	
 		<div id="secondsection" style="position:absolute; left:300px; top:100px; display:none;">
         		<h2><font color="red">個人資料</font></h2>
        				姓名：鄭景鴻<br>
