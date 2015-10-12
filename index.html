@@ -7,10 +7,11 @@
 			body{	background: url("http://2.bp.blogspot.com/_YBwMy0HaXdo/TL8V9bFuD3I/AAAAAAAAAGM/Tlo3jjLXGfg/s1600/0705190.jpg");
 				background-size:cover;
 			    }
-			.profile {  border-radius: 50%; border:5px solid #fff;  }
+		/*	.profile {  border-radius: 50%; border:5px solid #fff;  }  */
 			
 			.circle 
-			{	display: inline-block;
+			{	position:absolute; left:20px; top:100px;
+				display:none;
     				width: 100px;
     				height:100px;
     				border-radius: 50%;
@@ -25,7 +26,6 @@
     				height: 100%;
     				border-radius:50%;
 			}
-			
 		</style>
 	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -33,7 +33,7 @@
 		<script>
 			$(document).ready(function(){
     			$("html").click(function(){
-        	//	$("#firstsection").fadeIn(1000); 
+        		$(".circle").fadeIn(1000); 
         		$("#secondsection").fadeIn(2000);
         		$("#thirdsection").fadeIn(3000);
         		$("#fourthsection").fadeIn(4000);
